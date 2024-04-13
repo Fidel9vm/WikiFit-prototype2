@@ -1,0 +1,186 @@
+ .contenido .row .col {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Estilos para los íconos de lápiz */
+i.bi.bi-pencil-square {
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+i.bi.bi-pencil-square:hover {
+  color: #b800b8;
+}
+
+.contenido th {
+  font-size: 1.3rem;
+}
+
+.contenido table {
+  border: 1px solid rgb(202, 199, 199);
+}
+
+i {
+  color: black;
+}
+
+.crear-rutina,
+.encabezado {
+  background-color: white;
+  border: 5px solid #b800b8;
+}
+
+/* Encabezado */
+
+.contenido .row .encabezado {
+  margin: auto;
+  max-width: 900px;
+}
+
+
+.recomendacion {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.contenido h4 {
+  padding: 10px;
+  padding-top: 3px;
+  margin: 1rem auto;
+  width: fit-content;
+  border: 3px solid #650094;
+}
+
+/* Crear Rutinas */
+
+.contenido .crear-rutina h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.table {
+  justify-content: center;
+  margin: auto;
+}
+
+.contenido .table button.eliminar-fila {
+  background-color: #650094;
+  i {
+    color: white;
+  }
+}
+
+.contenido .table button.eliminar-fila:hover {
+  border: 1px solid black;
+  background-color: white;
+  i {
+    color: black;
+  }
+}
+
+.row .rutinas {
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#botones-rutinas a.btn {
+  font-size: 2rem;
+  margin: 3rem 10px;
+  text-align: center;
+  align-items: center;
+}
+
+/* seleccionar otro dia */
+
+.ir-abajo {
+  font-size: 1.2rem;
+  color: #650094;
+  text-decoration: none;
+}
+
+.ir-abajo:hover {
+  text-decoration: underline;
+}
+
+.select-dias {
+  margin-bottom: 4rem;
+}
+
+.select-dias .btn,
+h3 {
+  font-size: 2rem;
+}
+
+.select-dias .btn:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+/* Ajuste de ancho para las columnas Series y Repeticiones */
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(5),
+td:nth-child(5) {
+  width: 90px; 
+}
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(1),
+td:nth-child(1) {
+  width: 0; 
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  width: 0;
+}
+
+/* Estilo para los botones de tren */
+.btn-group {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.btn-group .btn {
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+  background-color: #650094;
+}
+
+/* Estilos adicionales para los botones de tren */
+
+.btn-group .btn.active {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+/* Estilos para dispositivos con un ancho máximo de 600px */
+@media screen and (max-width: 600px) {
+  .section-row {
+    max-width: none; /* Eliminar el ancho máximo */
+    margin: 0; /* Eliminar los márgenes */
+    padding: 0; /* Eliminar el relleno */
+  }
+
+  .contenido .row .encabezado,
+  .contenido .crear-rutina {
+    max-width: 100%; /* Ajustar el ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 0; /* Eliminar el relleno */
+  }
+
+  .contenido .table th,
+  .contenido .table td {
+    font-size: 0.8rem; /* Reducir el tamaño de la fuente de las celdas de la tabla */
+  }
+}

@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.contenido,
+.info .contenido {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1, h2 , h3{
+  user-select: none;
+}
+
+
+i {
+  color: white;
+  transition: 400ms;
+}
+
+br {
+  user-select: none;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.contenido .col {
+  margin-right: 2rem; /* Ajusta el valor según sea necesario */
+}
+
+/* Para evitar que el último elemento tenga margen derecho */
+.contenido .col:last-child {
+  margin-right: 0;
+}
+
+/* Barra de navegacion */
+
+h1.flexbox {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  background-color: #b800b8;
+  height: 64px;
+}
+
+.navbar-nav {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  color: white;
+  transition: 400ms;
+  user-select: none;
+  font-weight: 500;
+}
+
+nav .nav-link {
+  background-color: #b800b8;
+  margin-right: auto;
+  padding: 12px;
+}
+
+.navbar-collapse {
+  text-align: right;
+  display: flex;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  transition: 400ms;
+}
+
+.navbar-toggler {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.navbar-toggler:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+nav .nav-link:hover {
+  color: #3b0058;
+}
+
+/* Hero */
+
+.hero button {
+  font-size: 23px;
+  background-color: #b800b8;
+  position: absolute;
+  top: 125px;
+  transition: 400ms;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.hero button:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: none;
+}
+
+/* Info */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9px;
+  justify-content: center;
+  background-color: #650094;
+}
+
+.info p {
+  color: white;
+  max-width: 950px;
+}
+
+/* Contenido */
+
+.contenido .row {
+  width: 100%;
+  margin: 3% auto;
+}
+
+.contenido .col {
+  padding: 1.5rem;
+}
+
+#ejercicios,
+#guia,
+#rutinas,
+#nutricion,
+#faq,
+#grupo30 {
+  background-color: white;
+  border: 5px solid #b800b8;
+}
+
+.contenido h2 {
+  font-size: 2.5rem;
+}
+
+.contenido .btn {
+  background-color: #650094;
+  color: white;
+  margin: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 900ms;
+  font-family: sans-serif;
+}
+
+.contenido .btn:hover {
+  background: white;
+  border: 1px solid #3b0058;
+  color: #3b0058;
+}
+
+/* Musculos */
+
+#botones-musculos .btn {
+  font-size: 1.5rem;
+}
+
+/* Rutinas */
+
+#botones-rutinas .btn {
+  font-size: 2rem;
+  margin: 7rem 10px;
+}
+
+#botones-rutinas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FAQ */
+
+#faq form {
+  margin: 45px auto;
+  width: 85%;
+  background-color: #650094;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+#faq legend {
+  color: white;
+  user-select: none;
+}
+
+#enviar-btn {
+  color: white;
+  background: none;
+  border: 1px solid white;
+}
+
+#enviar-btn:hover {
+  color: #b800b8;
+  background-color: white;
+}
+
+.respuestas .btn {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Guia */
+
+#guia p{
+  margin: 1rem;
+}
+/* Nutricion */
+
+#nutricion h2 {
+  margin-bottom: 0.7rem;
+}
+
+#nutricion .mas .btn {
+  margin-top: 0.7rem;
+}
+
+/* Grupo 30 */
+
+
+
+/* Footer  */
+
+footer {
+  background-color: #b800b8;
+}
+
+footer.row {
+  padding-top: 3rem;
+}
+
+footer img {
+  user-select: none;
+}
+
+#año {
+  padding-top: 3px;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+#integrantes-grupo {
+  font-size: 25px;
+  padding: 20px 20px;
+  border: 3px solid black;
+  margin: 0px auto;
+  user-select: none;
+}
+
+footer .nav-link {
+  margin-bottom: 13px;
+  color: black;
+}
+
+footer i {
+  transition: 400ms;
+  color: black;
+}
+
+footer .nav-link:hover {
+  color: white;
+  i {
+    color: white;
+  }
+}
+
+.nombre {
+  font-size: 23px;
+  margin-bottom: 7px;
+}
+
+/* Mediaquerys */
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  .hero button {
+    display: none;
+  }
+  #faq form {
+    width: 100%;
+  }
+  .contenido .row .col {
+    max-height: 600px;
+  }
+  #botones-rutinas .btn {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  #botones-rutinas {  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+@media screen and (max-width: 990px) {
+  .contenido .col {
+    margin-right: 0;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    flex: auto;
+    width: 100%;
+  }
+  .contenido .col:last-child {
+    margin-bottom: 0;
+  }
+
+  #ejercicios h3 {
+    padding-bottom: 20px;
+  }
+  #botones-rutinas {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  #botones-musculos .btn{
+    font-size: 2rem;
+  }
+  .mas .btn {
+    font-size: 1.5rem;
+  }
+  #guia .mas .btn {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contenido .row {
+    flex: auto;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .contenido .row .col{
+    flex: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #ejercicios h3 {
+    padding-bottom: 40px;
+  }
+  #botones-musculos .btn,
+  #botones-rutinas .btn {
+    font-size: 4vw;
+    flex: auto;
+  }
+  #nutricion h2 {
+    margin-bottom: 2rem;
+  }
+  #guia h2 {
+    margin-bottom: 2rem;
+  }
+  #guia .mas .btn {
+    margin-top: 2rem;
+  }
+  #nutricion .mas .btn {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  #ejercicios h3 {
+    padding-bottom: 20px;
+  }
+  #botones-musculos .btn,
+  #botones-rutinas .btn {
+    font-size: 4vw;
+  }
+}

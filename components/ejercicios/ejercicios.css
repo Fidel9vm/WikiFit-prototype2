@@ -1,0 +1,122 @@
+.contenido .row .ejercicios{
+  margin: auto;
+  max-width: 700px;
+}
+
+i {
+  color: #650094;
+}
+
+.row .ejercicios {
+  margin: 0 auto;
+}
+.ejercicios {
+  padding: 2rem;
+}
+
+#botones-musculos .btn {
+  font-size: 1.8rem;
+}
+
+h1, h1 i {
+  color: #650094;
+}
+
+/*  */
+
+.contenido .row .col h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contenido .row .col p.head {
+  font-size: 21px;
+}
+
+.contenido .row .col {
+  background-color: white;
+  border: 5px solid #b800b8;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.contenido p {
+  max-width: 750px;
+  margin: 0.5rem auto;
+  font-size: 20px;
+}
+
+.contenido img {
+  max-height: 450px;
+  max-width: 600px;
+  width: 90%;
+  margin: 1rem auto;
+  border-radius: 20px;
+  border: 5px solid #650094;
+}
+
+.contenido .btn {
+  font-size: 21px;
+  background-color: #650094;
+}
+
+p.ejecucion{
+  text-align: left;
+  max-width: 500px;
+  border: 3px solid #650094;
+  color: #650094;
+  font-size: 21px;
+  padding: 0.7rem 1rem;
+}
+
+/* nav ejercicios */
+
+.nav-link-ejercicios {
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+}
+
+.nav-link-ejercicios:hover {
+  color: #3a0055;
+}
+  
+
+/* Ejecucion */
+.ejecucion {
+  font-size: 21px;
+}
+
+.btn.pressed {
+  background: none;
+  color: #650094;
+  border-color: #650094;
+}
+
+#btn-matematicas {
+  color: blue;
+  cursor: pointer;
+  user-select: none;
+}
+
+#btn-matematicas:hover{
+  text-decoration: underline;
+}
+
+p.matematicas {
+  display: none;
+  border: 1px solid black;
+  width: 270px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .contenido .row .col {
+    max-height: none;
+  }
+  .contenido .row .col h1 {
+    font-size: 3rem;
+
+  }
+}

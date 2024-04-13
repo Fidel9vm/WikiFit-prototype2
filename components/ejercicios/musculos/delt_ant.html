@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WikiFit</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="../ejercicios.css" />
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg" id="ejercicios-navbar">
+      <!-- Tabla de Navegación -->
+    </nav>
+
+    <div class="contenido">
+      <div class="row">
+        <div class="col">
+          <h1>
+            <i class="bi bi-chevron-double-right"></i> DELTOIDE ANTERIOR
+            <i class="bi bi-chevron-double-left"></i>
+          </h1>
+          <p class="head">
+            El deltoides anterior es uno de los tres músculos que componen el
+            deltoides, ubicado en la parte frontal del hombro. Es la sección del
+            hombro implicada en las funciones de "empuje" junto con los
+            pectorales y los tríceps. Este músculo es indispensable para la
+            estética y muy importante en ejercicios como fondos y press banca.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Press Militar</h2>
+          <p>
+            Unos de los ejercicios compuestos primordiales y un ejercicio
+            fundamental para fortalecer y crecer los hombros. El Press Militar
+            trabaja varios grupos musculares principalmente los delotides y
+            también recluta los estabilizadores del core. Ayuda a mejorar la
+            estabilidad del hombro y tiene aplicaciones prácticas en la vida
+            diaria y el rendimiento deportivo en general.
+          </p>
+          <img src="ejercicios-img/press-militar.webp" alt="" />
+          <br />
+          <button class="btn" onclick="toggleVisibility('ejecucion1')">
+            Ejecución
+          </button>
+          <p id="ejecucion1" class="ejecucion" style="display: none">
+            PASOS: <br />
+            1. Siéntate en un banco con respaldo vertical, con la espalda bien
+            apoyada y los pies en el suelo. <br />
+            2. Levanta la barra del soporte y baja lentamente hacia el pecho.
+            <br />
+            3. Sujeta una mancuerna en cada mano a la altura de los hombros, con
+            las palmas mirando hacia adelante. <br />
+            4. Levanta las mancuernas hacia arriba, extendiendo los brazos sobre
+            la cabeza. <br />
+            5. Baja las mancuernas de manera controlada hasta que los codos
+            estén ligeramente por debajo de los hombros. <br />
+            6. Lleva los codos y manos ligeramente adelante de la cabeza al
+            realizar el ejercicio.
+            <br />
+            <br />
+            <i class="bi bi-info-circle"></i> Recomiendo hacer el ejercicio en
+            un rango de 10 a 12 repeticiones, para evitar lesiones, evita el
+            egolifting en este ejercicio, una vez tengas bien fortalecidos los
+            hombros ya le puedes meter mas peso y hacer entre 6 y 8 reps. Mucha
+            gente lo hace con los brazos completamente a los costados de la
+            cabeza, lo cual no aporta en nada, solo aporta molestias en el
+            hombro, te recomiendo hacerlo con los brazos mas adelante para un
+            movimiento mas natural.
+            <br />
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Elevaciones Frontales</h2>
+          <p>
+            Este ejercicio es una buena alternativa para trabajar los deltoides
+            anterioes, aunque menos efectiva que el press militar, no es para
+            nada recomendable o eficiente para principiantes o intermedios, ya
+            que con el press militar es más que suficiente. Lo podrías hacer en
+            un día de brazo como complemento o si sientes molestías en el hombro
+            para realizar el primer ejercicio de la lista.
+          </p>
+          <img src="ejercicios-img/elev-front.jpg" alt="" />
+          <br />
+          <button class="btn" onclick="toggleVisibility('ejecucion2')">
+            Ejecución
+          </button>
+          <p id="ejecucion2" class="ejecucion" style="display: none">
+            PASOS: <br />
+            1. Ponte de pie, con los pies a la altura de los hombros y una
+            mancuerna en cada mano. <br />
+            2. Mantén los brazos extendidos a lo largo del cuerpo con las palmas
+            mirando hacia adentro. <br />
+            3. Levanta las mancuernas hacia adelante frente al cuerpo hasta la
+            altura de los hombros. <br />
+            4. Baja las mancuernas controladamente a la posición inicial.
+            <br />
+            5. No te balancees, mantente lo más recto posible. <br />
+            <br />
+            <i class="bi bi-info-circle"></i> Recomiendo, como dije, no hacer
+            este ejercicio siendo principiante e inclinarte preferiblemente
+            hacia un press militar, usa este ejercicio como alternativa o
+            complemento meramente. Usa un peso que te permita hacer bien la
+            técnica, una vez llegues al fallo técnico si le puedes meter algo de
+            "trampa" para sacar unas cuantas repeticiones extra.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 gx-0"
+      id="footer"
+    >
+      <!-- Footer -->
+    </footer>
+
+    <script src="ejecucion.js"></script>
+    <script src="app.js"></script>
+    <script src="../../../components.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

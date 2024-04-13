@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WikiFit</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="../ejercicios.css" />
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg" id="ejercicios-navbar">
+      <!-- Tabla de Navegación -->
+    </nav>
+
+    <div class="contenido">
+      <div class="row">
+        <div class="col">
+          <h1>
+            <i class="bi bi-chevron-double-right"></i> GEMELOS
+            <i class="bi bi-chevron-double-left"></i>
+          </h1>
+          <p class="head">
+            Los Gemelos es un grupo muscular que se encuentra en la parte
+            posterior de la pierna y está compuesto principalmente por dos
+            músculos: el gastrocnemio y el sóleo. Es un músculo complicado,
+            debido a que su tamaño y forma depende en gran medida de la genética
+            y desarrollarlo requiere una frecuencia de aproximadamente 3 veces a
+            la semana y gran volumen de entrenamiento. Es un músculo que aporta
+            mucho a la estética de las piernas debido, entre muchas otras cosas,
+            a que es un músculo visible usando pantalones cortos, muchos
+            culturistas son tachados de "patas de pollo" debido a la falta de
+            tamaño en sus gémelos, aún y teniendo unos músculos femorales bien
+            desarrollados.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Elevación de Talón de Pie</h2>
+          <p>
+            La elevación de talón es el mejor ejercicio para el desarollo de los
+            gemelos debido a su efectividad. Sabiendo esto, la variante de Pie
+            del ejercicio es la más beneficiosa para la hipertrofia del músculo
+            debido a que trabaja tanto el gastrocnemio como el sóleo de manera
+            más equitativa sumado a su rango de movimiento completo.
+          </p>
+          <img src="ejercicios-img/elev-talon.jpg" alt="" />
+          <br />
+          <button class="btn" onclick="toggleVisibility('ejecucion1')">
+            Ejecución
+          </button>
+          <p id="ejecucion1" class="ejecucion" style="display: none">
+            PASOS: <br />
+            1. Párate con los pies separados a la anchura de los hombros y los
+            dedos apuntando ligeramente hacia afuera.<br />
+            2. Coloca la parte delantera de los pies en el borde de un escalón o
+            plataforma elevada.<br />
+            3. Mantén una postura erguida y agarra un soporte si es necesario
+            para mantener el equilibrio.<br />
+            4. Desciende lentamente los talones hacia abajo, estirando los
+            músculos de la pantorrilla.<br />
+            5. Exhala y eleva los talones lo más alto posible, contrayendo los
+            músculos de la pantorrilla.
+            <br />
+            6. Exhala y eleva los talones lo más alto posible, contrayendo los
+            músculos de la pantorrilla. <br />
+            7. Inhala y baja los talones de manera controlada a la posición
+            inicial.
+            <br />
+            <br />
+            <i class="bi bi-info-circle"></i> Recomiendo acomodar este ejercicio
+            en tu rutina al final. Realizar en un rango de 12 a 15 repeticiones,
+            utilizando diversos métodos de intensidad y con mucho volumen de
+            entrenamiento.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Elevación de Talón Sentado</h2>
+          <p>
+            Este es el segudno ejercicio más efectivo para gemelos, te
+            recomiendo realizarlo en la máquina específica. Presenta un rango de
+            movimiento más limitado en comparación con el otro ejercicio de la
+            lista. Este ejercicio tiende a poner más énfasis en el gastrocnemio,
+            el músculo más grande de los gemelos. Debido a la posición de
+            sentado, el sóleo puede no trabajar tanto como lo hace en la versión
+            de pie. Te recomiendo realizar ambos ejercicios.
+          </p>
+          <img src="ejercicios-img/elev-talon-sentado.jpg" alt="" />
+          <br />
+          <button class="btn" onclick="toggleVisibility('ejecucion2')">
+            Ejecución
+          </button>
+          <p id="ejecucion2" class="ejecucion" style="display: none">
+            PASOS: <br />
+            1. Ajusta la máquina de elevación de talón para que esté adecuada a
+            tu altura.
+            <br />
+            2. Siéntate en la máquina con la espalda contra el respaldo y los
+            pies apoyados en la plataforma.
+            <br />
+            3. Ajusta la almohadilla para que esté justo encima de tus rodillas.
+            <br />
+            4. Exhala y levanta los talones lo más alto posible hacia arriba.
+            <br />
+            5. Mantén la contracción en la parte superior del movimiento durante
+            un segundo.
+            <br />
+            6. Inhala y baja los talones de manera controlada de vuelta a la
+            posición inicial.
+            <br />
+            <br />
+            <i class="bi bi-info-circle"></i> Recomiendo acomodar este ejercicio
+            en tu rutina al final. Realizar en un rango de 12 a 15 repeticiones,
+            utilizando diversos métodos de intensidad y con mucho volumen de
+            entrenamiento.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 gx-0"
+      id="footer"
+    >
+      <!-- Footer -->
+    </footer>
+
+    <script src="ejecucion.js"></script>
+    <script src="app.js"></script>
+    <script src="../../../components.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
