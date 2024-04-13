@@ -7,15 +7,25 @@ i {
   color: #650094;
 }
 
+.contenido .col {
+  background-color: white;
+  border: 5px solid #b800b8;
+}
+
+.contenido h3 {
+  margin-bottom: 0;
+}
+
 .row .ejercicios {
   margin: 0 auto;
 }
 .ejercicios {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 #botones-musculos .btn {
   font-size: 1.8rem;
+  margin-top: 0;
 }
 
 h1, h1 i {

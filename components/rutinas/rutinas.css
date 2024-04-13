@@ -1,6 +1,8 @@
- .contenido .row .col {
-  max-width: 1200px;
+.contenido .row .col {
+  max-width: 1100px;
   margin: auto;
+  padding: 1rem;
+  padding-bottom: 0;
 }
 
 /* Estilos para los íconos de lápiz */
@@ -30,6 +32,10 @@ i {
   border: 5px solid #b800b8;
 }
 
+.table > :not(caption) > * > * {
+  padding: 5px;
+}
+
 /* Encabezado */
 
 .contenido .row .encabezado {
@@ -37,26 +43,21 @@ i {
   max-width: 900px;
 }
 
-
 .recomendacion {
   font-size: 1rem;
   margin-top: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .contenido h4 {
-  padding: 10px;
-  padding-top: 3px;
-  margin: 1rem auto;
-  width: fit-content;
-  border: 3px solid #650094;
+  font-weight: bold;
+  color: #650094;
 }
 
 /* Crear Rutinas */
 
 .contenido .crear-rutina h3 {
   font-size: 2rem;
-  padding-bottom: 1rem;
 }
 
 .table {
@@ -80,7 +81,7 @@ i {
 }
 
 .row .rutinas {
-  max-width: 700px;
+  max-width: 600px;
   height: auto;
   margin: 0 auto;
   padding-top: 2rem;
@@ -125,13 +126,13 @@ th:nth-child(4),
 td:nth-child(4),
 th:nth-child(5),
 td:nth-child(5) {
-  width: 90px; 
+  width: 90px;
 }
 th:nth-child(1),
 td:nth-child(1),
 th:nth-child(1),
 td:nth-child(1) {
-  width: 0; 
+  width: 0;
 }
 
 th:nth-child(6),

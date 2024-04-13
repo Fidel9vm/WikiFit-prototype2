@@ -5,7 +5,6 @@
   font-family: "Space Grotesk", sans-serif;
 }
 
-
 body {
   justify-content: center;
   align-items: center;
@@ -28,10 +27,11 @@ p {
   font-weight: 500;
 }
 
-h1, h2 , h3{
+h1,
+h2,
+h3 {
   user-select: none;
 }
-
 
 i {
   color: white;
@@ -178,7 +178,7 @@ nav .nav-link:hover {
   margin: 5px;
   font-size: 1.1rem;
   font-weight: 500;
-  transition: 900ms;
+  transition: 700ms;
   font-family: sans-serif;
 }
 
@@ -209,9 +209,13 @@ nav .nav-link:hover {
 
 /* FAQ */
 
+.faq {
+  max-width: 800px;
+}
+
 #faq form {
   margin: 45px auto;
-  width: 85%;
+  width: 90%;
   background-color: #650094;
   padding: 20px;
   border: 1px solid black;
@@ -241,7 +245,7 @@ nav .nav-link:hover {
 
 /* Guia */
 
-#guia p{
+#guia p {
   margin: 1rem;
 }
 /* Nutricion */
@@ -256,20 +260,32 @@ nav .nav-link:hover {
 
 /* Grupo 30 */
 
-
-
 /* Footer  */
 
 footer {
   background-color: #b800b8;
 }
 
-footer.row {
-  padding-top: 3rem;
+footer h4 {
+  user-select: none;
 }
 
-footer img {
-  user-select: none;
+footer p {
+  margin: 0px;
+  margin-bottom: 3px;
+  color: #100018;
+}
+
+footer i {
+  color: #100018;
+  font-size: 2.5rem;
+  padding: 0 .5rem;
+  transition: 700ms;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: white;
 }
 
 #año {
@@ -278,35 +294,7 @@ footer img {
   user-select: none;
 }
 
-#integrantes-grupo {
-  font-size: 25px;
-  padding: 20px 20px;
-  border: 3px solid black;
-  margin: 0px auto;
-  user-select: none;
-}
 
-footer .nav-link {
-  margin-bottom: 13px;
-  color: black;
-}
-
-footer i {
-  transition: 400ms;
-  color: black;
-}
-
-footer .nav-link:hover {
-  color: white;
-  i {
-    color: white;
-  }
-}
-
-.nombre {
-  font-size: 23px;
-  margin-bottom: 7px;
-}
 
 /* Mediaquerys */
 
@@ -325,7 +313,7 @@ footer .nav-link:hover {
     font-size: 2rem;
     margin: 1rem;
   }
-  #botones-rutinas {  
+  #botones-rutinas {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -333,8 +321,6 @@ footer .nav-link:hover {
     justify-content: center;
   }
 }
-
-
 
 @media screen and (max-width: 990px) {
   .contenido .col {
@@ -355,7 +341,7 @@ footer .nav-link:hover {
     flex-direction: row;
     flex-wrap: nowrap;
   }
-  #botones-musculos .btn{
+  #botones-musculos .btn {
     font-size: 2rem;
   }
   .mas .btn {
@@ -372,7 +358,7 @@ footer .nav-link:hover {
     width: 100%;
     margin: 1rem auto;
   }
-  .contenido .row .col{
+  .contenido .row .col {
     flex: auto;
     width: 100%;
     margin: 0 auto;
